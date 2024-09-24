@@ -1,0 +1,65 @@
+@charset "utf-8";
+/*reset do css limpa TODOS os padões dos navegadores*/
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Times New Roman', Times, serif;
+
+}
+
+/*"px-para o tamanho e dimensões(largura e altura
+"vh" e o "vw"-serve para largura de tela(mobile firts)
+"em"-serve somente para fonts(também para mobile first/css3*/
+
+html{
+    height: 100vh;
+
+}
+
+/*o body vai ter um degrade de duas cores e não vai se repetir */
+body{
+background-image: linear-gradient(to bottom, #c4ffeb 50%, #d4838f 100%);
+background-position: bottom;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+}
+    
+/*para construir o css vamos atribuir estruturas e depois os objetos-header,h1,nav,a:houver*/
+
+header{
+    background-color: #d9d9d9;
+    margin-top: 3px;
+    border-radius: 7px;
+    width: 90vw;
+    margin: auto;
+}
+
+nav{
+    background-color: #d6abb1;
+    margin-top: 3px;
+    border-radius: 7px;
+    width: 90vw;
+    margin: auto;
+    text-align: center;
+}
+
+main{
+    background-color: #ecdad8;
+    margin-top: 3px;
+    border-radius: 7px;
+    width: 90vw;
+    margin: auto;
+    text-align: center;
+    border-radius: 0px, 0px, 9px, 9px;
+}
+
+header > h1{
+color: palevioletred;
+text-align: center;
+
+
+}
+
+
